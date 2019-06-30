@@ -42,7 +42,6 @@ export default {
     configurationsChanged({ width, height }) {
       this.defaultWidth = width;
       this.defaultHeight = height;
-      console.log(width, height);
     },
     videoAdded(videoId) {
       this.videos.push(videoId);
